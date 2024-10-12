@@ -1,5 +1,5 @@
 pip install pandas
-
+pip install numpy
 pip install jupyter
 
 df = pd.DataFrame(dict1)
@@ -13,4 +13,3 @@ df.describe()
 extFile = pd.read_csv()
 extFile['headname']
 extFile['headname'][0] = newValue
-
